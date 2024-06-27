@@ -1,0 +1,26 @@
+<html>
+    <title>my first page</title>
+    <body>
+        <h1>Costruction Bricks Works</h1>
+        <p>
+            Hello everyone,welcome to our Costruction Bricks Works.
+        </p>
+        <strong>Types of bricks</strong>
+        <ol>
+            <li>Normal bricks</li>
+            <li>Used bricks</li>
+            <LI>Semi used bricks</LI>
+        </ol>
+        <H2><strong>About Bricks</strong></H2>
+    <P><B>Bricks</B> are a type of building material typically made of concrete, sand, lime, or clay.<br><I>They are generally used to construct walls, pavements, and other types of architecture.</br></I> Bricks can be produced in a variety of shapes and types depending on the materials used to make them and the use for which they are intended.</P>
+    <pre><H2>Unordered preList</H2></pre>
+    <UL TYPE = CIRCLE >
+        <LI>Tructural walls, exterior and interior walls.</LI>
+<LI>Beaing and non-bearing sound proof partitions.</LI>
+<LI>The fireproofing of structural-steel members in the form of firewalls, party walls, enclosures and fire towers.</LI>
+</UL>
+
+AT THE COLLEGE</BASEFONT>
+<div align="center">SNSCT</div>
+<div align="right">COIMBATORE</div>
+<div align="left">TAMILNADU</div>
