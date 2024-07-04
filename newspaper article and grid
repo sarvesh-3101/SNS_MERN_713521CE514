@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <STYLE>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and header styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #000000;
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #fc0101;
+        }
+
+        /* Main section styles */
+        .main {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        article {
+            flex-basis: 65%;
+            background-color: #9e9e9e;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #060606;
+            border-radius: 5px;
+        }
+
+        article h2 {
+            font-size: 1.8em;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        article p {
+            font-size: 1.1em;
+            color: #45452c;
+        }
+
+        aside {
+            flex-basis: 30%;
+            background-color: #a7a5a5;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #080808;
+            border-radius: 5px;
+        }
+
+        aside h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        aside p {
+            font-size: 1.1em;
+            color: #494949;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </STYLE>
+    <header>
+        <hr>
+        </hr>
+        <h1>THE TIME OF INDIA</h1>
+        <hr>
+        </hr>
+        <p>Today's Date: July 2, 2024</p>
+    </header>
+    </style>
+    <section class="main">
+        <article>
+            <h2>Breaking News</h2>
+            <p>The Justice D. Murugesan Committee, constituted to draft a distinct State Education Policy, also suggests
+                regulation of deemed-to-be universities, autonomous colleges, foreign universities, and self-funding
+                institutions. It favours more investment by the government in higher education
+                DENNIS S. JESUDASAN.</p>
+            <div class="picture verticle">
+                <picture><!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source media="(min-width: 1800px)" sizes="860px"
+                        srcset="https://th-i.thgim.com/public/news/cities/chennai/nfqwxt/article68356100.ece/alternates/LANDSCAPE_1200/Photo%2004.JPG">
+                    <source media="(min-width: 768px) and (max-width: 1599px)" sizes="640px"
+                        srcset="https://th-i.thgim.com/public/news/cities/chennai/nfqwxt/article68356100.ece/alternates/LANDSCAPE_1200/Photo%2004.JPG">
+                    <source media="(min-width: 321px) and (max-width: 767px)" sizes="400px"
+                        srcset="https://th-i.thgim.com/public/news/cities/chennai/nfqwxt/article68356100.ece/alternates/LANDSCAPE_660/Photo%2004.JPG">
+                    <source media="(max-width: 320px)" sizes="320px"
+                        srcset="https://th-i.thgim.com/public/news/cities/chennai/nfqwxt/article68356100.ece/alternates/LANDSCAPE_320/Photo%2004.JPG">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="https://www.thehindu.com/theme/images/th-online/1x1_spacer.png" alt="Justice Murugesan, along with other committee members, submitting the report to Chief Minister M.K. Stalin at the Secretariat in Chennai on Monday.
+                    " title="Justice Murugesan, along with other committee members, submitting the report to Chief Minister M.K. Stalin at the Secretariat in Chennai on Monday."
+                        data-original="https://www.thehindu.com/theme/images/th-online/1x1_spacer.png" class="lead-img">
+                </picture>
+            </div>
+            <img src="https://www.thehindu.com/theme/images/th-online/1x1_spacer.png">
+        </article>
+        <HR>
+        </HR>
+
+        <article>
+            <h2>Hindenburg Research gets ‘show cause’ notice from SEBI over Adani Group report</h2>
+            <p>Hindenburg Research, which had accused Adani Group of improper use of tax havens and flagged concerns
+                about debt levels in a report in 2023, termed SEBI's notice as an attempt “to silence and intimidate
+                those who expose corruption and fraud perpetrated by the most powerful individuals in India"..</p>
+        </article>
+        <aside>
+            <h2>Kallakurichi hooch tragedy</h2>
+            <p> Madras High Court takes up suo motu PIL to rehabilitate the tribes selling spurious liquor</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 THE TIMES OF INDIA. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+<html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .item1 {
+            grid-area: header;
+        }
+
+        .item2 {
+            grid-area: menu;
+        }
+
+        .item3 {
+            grid-area: main;
+        }
+
+        .item4 {
+            grid-area: right;
+        }
+
+        .item5 {
+            grid-area: footer;
+        }
+
+        .grid-container {
+            display: grid;
+            height: 700px;
+            width: 500px;
+            grid-template-areas:
+                'header header header header header header'
+                'menu    main    main   main right right'               
+                'footer  footer footer footer footer footer';
+            gap: 10px;
+            background-color: #aeafaf;
+            padding: 10px;
+        }
+
+        .grid-container>div {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Grid Layout</h1>
+
+
+
+    <div class="grid-container">
+        <div class="item1"> Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+    </div>
+
+</body>
+
+</html>
+
+</html>
+<html>
+<!-- The grid: four columns -->
+
+
+</html>
